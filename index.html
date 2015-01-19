@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Rock, Paper, Scissors, Lizard, Spock</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- jQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+
+  <div id="header">
+    <img src="images/header.png" alt="Rock Paper Scissors Lizard Spock">
+    <a id="rules" class="button" href="images/rules.png">How to Play</a>
+  </div>
+
+  
+  <div id="gameplay">
+    <h4>Choose a gesture:</h4>
+      <div id="choice">
+        <ul>
+          <li id="rock"><a href="javascript:void(0);"><img src="images/icon-rock.png" alt="Rock"></a></li>
+          <li id="paper"><a href="javascript:void(0);"><img src="images/icon-paper.png" alt="Paper"></a></li>
+          <li id="scissors"><a href="javascript:void(0);"><img src="images/icon-scissors.png" alt="Scissors"></a></li>
+          <li id="lizard"><a href="javascript:void(0);"><img src="images/icon-lizard.png" alt="Lizard"></a></li>
+          <li id="spock"><a href="javascript:void(0);"><img src="images/icon-spock.png" alt="Spock"></a></li>
+        </ul>
+      </div>  
+  </div>
+
+<!--mobile view with media query -->
+   <div id="gameplay-small">
+    <h4>Choose a gesture:</h4>
+      <div id="choice-small">
+        <ul>
+          <li id="rock-small"><a href="javascript:void(0);"><img src="images/icon-rock-small.png" alt="Rock"></a></li>
+          <li id="paper"><a href="javascript:void(0);"><img src="images/icon-paper-small.png" alt="Paper"></a></li>
+          <li id="scissors-small"><a href="javascript:void(0);"><img src="images/icon-scissors-small.png" alt="Scissors"></a></li>
+          <li id="lizard-small"><a href="javascript:void(0);"><img src="images/icon-lizard-small.png" alt="Lizard"></a></li>
+          <li id="spock-small"><a href="javascript:void(0);"><img src="images/icon-spock-small.png" alt="Spock"></a></li>
+        </ul>
+      </div>  
+  </div>
+
+  <div id="score">
+    <div class="wins">
+      <h4>Wins</h4>
+    </div>
+    <div class="losses">
+      <h4>Losses</h4>
+    </div>
+  </div>
+  
+
+<!-- for now the game just runs in the console
+to view the results, open the developer console-->
+<script src="js/app.js"></script>
+ 
+    
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
