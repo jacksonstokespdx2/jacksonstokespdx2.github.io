@@ -20,6 +20,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/foundation.min.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/styles.css">
 
@@ -47,7 +48,7 @@
   <div id="gameplay">
     <h4>Choose a gesture:</h4>
       <div id="choice">
-        <ul>
+        <ul class="small-block-grid-5">
           <li id="rock"><a href="javascript:void(0);"><img src="images/icon-rock.png" alt="Rock"></a></li>
           <li id="paper"><a href="javascript:void(0);"><img src="images/icon-paper.png" alt="Paper"></a></li>
           <li id="scissors"><a href="javascript:void(0);"><img src="images/icon-scissors.png" alt="Scissors"></a></li>
@@ -57,26 +58,15 @@
       </div>  
   </div>
 
-<!--mobile view with media query -->
-   <div id="gameplay-small">
-    <h4>Choose a gesture:</h4>
-      <div id="choice-small">
-        <ul>
-          <li id="rock-small"><a href="javascript:void(0);"><img src="images/icon-rock-small.png" alt="Rock"></a></li>
-          <li id="paper"><a href="javascript:void(0);"><img src="images/icon-paper-small.png" alt="Paper"></a></li>
-          <li id="scissors-small"><a href="javascript:void(0);"><img src="images/icon-scissors-small.png" alt="Scissors"></a></li>
-          <li id="lizard-small"><a href="javascript:void(0);"><img src="images/icon-lizard-small.png" alt="Lizard"></a></li>
-          <li id="spock-small"><a href="javascript:void(0);"><img src="images/icon-spock-small.png" alt="Spock"></a></li>
-        </ul>
-      </div>  
-  </div>
-
   <div id="score">
     <div class="wins">
-      <h4>Wins</h4>
+      <h4>You</h4>
+    </div>
+    <div class="outcome">
+      <h4></h4>
     </div>
     <div class="losses">
-      <h4>Losses</h4>
+      <h4>Computer</h4>
     </div>
   </div>
   
